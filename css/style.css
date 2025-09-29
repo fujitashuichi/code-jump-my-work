@@ -93,3 +93,25 @@ a {
 #works ul li img {
     width: 100%;
 }
+
+
+#news dl div {
+    width: 100%;
+    display: flex;
+    padding: 15px 10px;
+    border-bottom: solid 1px #ccc;
+}
+
+#news dl div:first-child {
+    border-top: solid 1px #ccc;
+}
+
+#news dl dt {
+    width: 20%;
+    font-size: 0.9rem;
+}
+
+#news dl dd {
+    width: 80%;
+    font-size: 0.9rem;
+}
